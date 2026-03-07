@@ -51,34 +51,36 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 1. 데이터베이스 알아보기
 
-<!-- 데이터베이스와 DBMS에 관해 배우게 된 점을 적어주세요. -->
+데이터베이스 : 데이터의 집합
+DBMS : 데이터베이스 운영/관리 프로그램
+테이블 : 데이터베이스의 최소 단위
 
 > **확인문제: 다음 소프트웨어 중에서 DBMS가 아닌 것을 모두 고르세요.**
 
 > MySQL / Excel / Oracle / SQL Server / MariaDB
 
 ```
-여기에 답을 적어주세요!
+Excel
 ```
 
 
 ## 2. MySQL 설치하기
 
-<!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
-
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="1185" height="850" alt="image" src="https://github.com/user-attachments/assets/0a5d8703-a989-4009-a881-f806402cab42" />
 
 ## 3. 건물을 짓기 위한 설계도: 데이터베이스 모델링
 
-<!-- 데이터베이스 모델링에 관해 배우게 된 점을 적어주세요. -->
+데이터베이스 모델링 : 테이블의 구조를 미리 설계하는 개념. 건축 설계도를 그리는 과정과 비슷
+  - 현실세계에서 사용되는 작업이나 사물들을 DBMS의 테이블로 옮기기 위한 과정
+프로젝트 : 현실 세계를 컴퓨터 시스템으로 옮겨놓는 일련의 과정
+폭포수 모델 : 소프트웨어 개발 단계 중 하나. 폭포가떨어지듯 개발 단계 진행 
 
 > **확인문제: 다음은 폭포수 모델의 절차입니다. 차례대로 나열해보세요.**
 
 > 시스템 설계 / 테스트 / 프로그램 구현 / 프로젝트 계획 / 업무 분석 / 유지보수
 
 ```
-여기에 답을 적어주세요!
+프로젝트 계획 - 업무 분석 - 시스템 설계 - 프로그램 구현 - 테스트 - 유지보수
 ```
 
 
@@ -86,16 +88,29 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1875" height="1002" alt="image" src="https://github.com/user-attachments/assets/13f6591a-7ffd-4d33-bf64-0d32f0d00ff3" />
+<img width="1579" height="847" alt="image" src="https://github.com/user-attachments/assets/b3bed075-6613-49da-927c-4b2dab441dda" />
+<img width="1201" height="918" alt="image" src="https://github.com/user-attachments/assets/d322894a-552a-4378-bd71-4f950a1ac3fa" />
+<img width="1688" height="889" alt="image" src="https://github.com/user-attachments/assets/e393f4fb-3663-4442-8d75-8dad165f0196" />
 
 
 ## 5. 데이터베이스 개체
 
 <!-- 데이터베이스 개체에 관해 배우게 된 점을 적어주세요. -->
+인덱스 : 데이터를 빠르게 찾을 수 있게 함
+뷰 : 바로가기 기능. 가상의 테이블
+스토어드 프로시저 : 여러 개의 sql 묶어줌. 프로그래밍 기능 제공
 
 <!-- 인덱스, 뷰, 스토어드 프로시저 실습을 각각 진행한 후, 각 실습에 대한 인증 사진을 1장씩 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+> 인덱스
+<img width="1674" height="939" alt="image" src="https://github.com/user-attachments/assets/fc952ec7-e53c-4d8a-9005-3d5572616ce7" />
+
+> 뷰
+<img width="1623" height="906" alt="image" src="https://github.com/user-attachments/assets/07cfad4c-a82d-4271-bbd4-2219f3aca9e7" />
+
+> 스토어드 프로시저
+<img width="1847" height="962" alt="image" src="https://github.com/user-attachments/assets/d24bb112-5d44-4224-9835-53499d609dc2" />
 
 ---
 
