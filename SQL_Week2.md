@@ -48,13 +48,13 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 <!-- 기본적인 SQL 문법에 관해 배우게 된 점을 적어주세요. -->
 
 - 기본 형식 : SELECT ~ FROM ~ WHERE
-    - SELECT 열_이름
+    - ```SELECT 열_이름
         FROM 테이블_이름
         WHERE 조건식
         GROUP BY 열_이름
         HAVING 조건식
         ORDER BY 열_이름
-        LIMIT 숫자
+        LIMIT 숫자```
 
 - DROP DATABASE : 기존 db 삭제
 - USE : db의 데이터베이스 선택
@@ -69,7 +69,10 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 3~4장 제출해 주세요. -->
-
+<img width="669" height="510" alt="Image" src="https://github.com/user-attachments/assets/a6612a08-e098-4059-99b6-24fc052420c2" />
+<img width="1190" height="822" alt="Image" src="https://github.com/user-attachments/assets/4d9c291b-3930-4b9f-9008-093a51992ff4" />
+<img width="1248" height="886" alt="Image" src="https://github.com/user-attachments/assets/f8c7fa6c-c3c0-4806-9f3f-677c1e879253" />
+<img width="1211" height="880" alt="Image" src="https://github.com/user-attachments/assets/6148b38e-7caf-4e14-8eba-4b69e4a72966" />
 
 
 > **확인문제: 다음 SQL문의 빈칸에 들어갈 WHERE절의 문법으로 틀린 것을 고르세요.**
@@ -116,6 +119,8 @@ WHERE ________;
 - LIMIT 시작, 개수 : 출력 개수 제한
 - DISTINCT : 조회된 결과에서 중복 데이터 제거
 
+<img width="1277" height="842" alt="Image" src="https://github.com/user-attachments/assets/8b6dd570-7822-4656-bb9b-c42b6a48efb6" />
+
 
 > **확인문제: 다음 표는 주요 집계함수를 정리한 것입니다. 각 설명에 해당하는 올바른 함수명을 기호에 맞게 작성하세요.**
 
@@ -143,20 +148,22 @@ WHERE ________;
 
 - INSERT : 새로운 정보 테이블에 입력
     - INSERT INTO 테이블 [(열1, 열2, ...)] VALUES (값1, 값2, ...)
-    - INSERT INTO 테이블_이름 (열_이름1, 열_이름2, ...)
-        SELECT 문 ; : 다른 테이블의 데이터를 한 번에 입력
+    - ``` INSERT INTO 테이블_이름 (열_이름1, 열_이름2, ...)
+        SELECT 문 ;``` : 다른 테이블의 데이터를 한 번에 입력
         - SELECT의 열과 INSERT될 테이블의 열 개수가 같아야 함
 
 - UPDATE : 변경된 정보 수정
-    '''SQL
+    ```
     UPDATE 테이블_이름
         SET 열1=값1, 열2=값2, ...
         WHERE 조건;
-    '''
+    ```
     - WHERE 문법상 생략 가능 -> 전체 행의 값 변경됨
 
 - DELETE : 정보 삭제
     - DELETE FROM 테이블이름 WHERE 조건 ;
+
+<img width="1291" height="859" alt="Image" src="https://github.com/user-attachments/assets/62020342-bef1-497c-bd68-eca92b07e830" />
 
 > **확인문제: 다음이 설명하는 SQL이 무엇인지 쓰세요.**
 
@@ -218,7 +225,21 @@ INSERT INTO students VALUES
 4. 나이가 20 이상이고 GPA가 3.5 이상인 학생을 조회하시오.
 5. students 테이블에 본인의 정보를 직접 INSERT 하시오. (INSERT 실행 후, 데이터가 정상적으로 추가되었는지 확인할 수 있도록 조회 결과까지 포함하여 캡처하시오.)
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+1
+<img width="610" height="227" alt="Image" src="https://github.com/user-attachments/assets/180439c5-f8fc-4c6b-a9b0-dacc77b9397f" />
+
+2
+<img width="647" height="332" alt="Image" src="https://github.com/user-attachments/assets/2d85bb98-cc6e-4970-bf75-ce208291bb74" />
+
+3
+<img width="634" height="292" alt="Image" src="https://github.com/user-attachments/assets/7c0be0fc-b478-416b-abfa-ed9baba225be" />
+
+4
+<img width="860" height="415" alt="Image" src="https://github.com/user-attachments/assets/73e035c8-4392-47f1-b0b2-66be997216d0" />
+
+5
+<img width="1120" height="410" alt="Image" src="https://github.com/user-attachments/assets/2e68e4a9-7b19-4e77-a551-d15d5d173181" />
+
 
 ### 🎉 수고하셨습니다.
 
