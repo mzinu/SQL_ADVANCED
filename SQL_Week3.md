@@ -267,7 +267,22 @@ INSERT INTO orders VALUES
    - 생성 후 CALL로 실행 결과를 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+**1**
+<img width="720" height="377" alt="image" src="https://github.com/user-attachments/assets/286fb6cb-2df4-49e8-8bdf-caedc35c47e2" />
+
+**2**
+<img width="797" height="374" alt="image" src="https://github.com/user-attachments/assets/b98ad98a-dc7b-40bf-8988-9835f58425e9" />
+
+**3**
+<img width="656" height="446" alt="image" src="https://github.com/user-attachments/assets/b5716465-b300-47f2-967e-923399d16349" />
+
+**4**
+<img width="766" height="458" alt="image" src="https://github.com/user-attachments/assets/0dcbc4ff-ad2b-40ab-bd46-3c83140f7f46" />
+
+**5**
+<img width="1540" height="652" alt="image" src="https://github.com/user-attachments/assets/107a0251-9cdf-4627-b3e6-733a6d01a18c" />
+<img width="1463" height="651" alt="image" src="https://github.com/user-attachments/assets/df33ed5b-9150-48d1-85ef-efa6eed4788a" />
+
 
 
 ### 🎉 수고하셨습니다.
