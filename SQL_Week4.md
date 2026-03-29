@@ -1,4 +1,4 @@
-# SQL_ADVANCED 4주차 정규 과제 
+<img width="482" height="344" alt="image" src="https://github.com/user-attachments/assets/4c3e82b8-6c24-4a9d-ad83-98264a526df9" /># SQL_ADVANCED 4주차 정규 과제 
 
 📌SQL_ADVANCED 정규과제는 매주 정해진 분량의 『*혼자 공부하는 SQL*』 을 읽고 학습하는 것입니다. 이번주는 아래의 **SQL_ADVANCED_4th_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
 
@@ -47,7 +47,12 @@ https://www.youtube.com/watch?v=JrXWxku7ZIM&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+> <img width="482" height="344" alt="image" src="https://github.com/user-attachments/assets/b163eb0a-9538-48ac-af1a-c91e0791c965" />
+> <img width="577" height="278" alt="image" src="https://github.com/user-attachments/assets/d2f7da9f-ed67-4b9a-ac81-9317996f9a05" />
+> <img width="823" height="93" alt="image" src="https://github.com/user-attachments/assets/0914813d-79eb-482f-9247-125e8b8f62f1" />
+> <img width="616" height="82" alt="image" src="https://github.com/user-attachments/assets/b2eb06e3-5b19-4526-81fe-117f2d1ac4f9" />
+> <img width="821" height="208" alt="image" src="https://github.com/user-attachments/assets/2988c5be-d646-4b10-a841-4d57dd706c64" />
+
 
 
 ## 2. 제약조건으로 테이블을 견고하게 
@@ -171,7 +176,18 @@ USE week4_db;
 1. 각 문제의 실행 결과가 보이도록 화면을 캡처합니다.
 2. 테이블 생성 결과, 데이터 삽입 결과, 뷰 생성 및 조회 결과가 모두 보이도록 제출합니다.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+**1 + 2**
+> <img width="868" height="405" alt="image" src="https://github.com/user-attachments/assets/230b4791-6d08-412e-8ee0-239d3b0c3ccd" />
+ 
+**3**
+> <img width="795" height="344" alt="image" src="https://github.com/user-attachments/assets/c1ecf009-06c9-457f-af0b-23151e1c58cf" />
+> <img width="818" height="343" alt="image" src="https://github.com/user-attachments/assets/c8cc9719-2891-4d83-8472-16ba036dc8a7" />
+
+**4**
+> <img width="1292" height="596" alt="image" src="https://github.com/user-attachments/assets/581be1d8-e555-4f4b-b450-258833775c59" />
+
+**5**
+> <img width="551" height="197" alt="image" src="https://github.com/user-attachments/assets/1ca77a41-88e8-4e69-b629-3cbdc2d33052" />
 
 ### 🎉 수고하셨습니다.
 
