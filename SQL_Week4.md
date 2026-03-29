@@ -1,4 +1,4 @@
-<img width="482" height="344" alt="image" src="https://github.com/user-attachments/assets/4c3e82b8-6c24-4a9d-ad83-98264a526df9" /># SQL_ADVANCED 4주차 정규 과제 
+# SQL_ADVANCED 4주차 정규 과제 
 
 📌SQL_ADVANCED 정규과제는 매주 정해진 분량의 『*혼자 공부하는 SQL*』 을 읽고 학습하는 것입니다. 이번주는 아래의 **SQL_ADVANCED_4th_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
 
