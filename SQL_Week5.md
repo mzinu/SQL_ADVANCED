@@ -105,8 +105,9 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="1139" height="805" alt="image" src="https://github.com/user-attachments/assets/2fade9a3-a6cb-4354-8ad1-cafe03b9e8cc" />
+<img width="1111" height="571" alt="image" src="https://github.com/user-attachments/assets/847e384e-9b9e-45b9-9632-e767f0761af3" />
+<img width="1120" height="594" alt="image" src="https://github.com/user-attachments/assets/0724261c-c1cc-43d1-8a40-2411fffe2df8" />
 
 ---
 
@@ -159,7 +160,18 @@ INSERT INTO employees VALUES
 
 인덱스 생성 결과, EXPLAIN 실행 결과, 인덱스 삭제 결과가 모두 보이도록 캡처하여 제출하세요.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+#### 1
+<img width="1021" height="256" alt="image" src="https://github.com/user-attachments/assets/57c167b8-6b96-46cf-985f-35938b1d1e61" />
+
+#### 2
+<img width="1012" height="282" alt="image" src="https://github.com/user-attachments/assets/68751cbf-e67a-441e-9a91-f8882f82892a" />
+
+#### 3
+<img width="986" height="357" alt="image" src="https://github.com/user-attachments/assets/72639558-3c2f-46c0-810c-9c0ac8e5655c" />
+<img width="1033" height="750" alt="image" src="https://github.com/user-attachments/assets/9d516b73-b009-4669-9442-907bbc411f8d" />
+
+#### 4
+<img width="1025" height="580" alt="image" src="https://github.com/user-attachments/assets/10b2344e-56bb-40d0-8a3e-d902990bd37d" />
 
 ### 🎉 수고하셨습니다.
 
