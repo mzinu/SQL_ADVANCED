@@ -47,37 +47,66 @@ https://www.youtube.com/watch?v=bggWVsBmKag&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 스토어드 프로시저에 관해 배우게 된 점을 적어주세요. -->
 - 스토어드 프로시저는 MySQL 안에 저장해두고 필요할 때 실행하는 SQL 코드 묶음이다.
-- 자주 사용하는 SQL 문을 반복해서 작성하지 않고, 프로시저로 만들어 CALL로 호출할 수 있다.
-- 기본 구조는 CREATE PROCEDURE, BEGIN ~ END, CALL로 이루어진다.
-- BEGIN ~ END 사이에는 여러 SQL 문을 작성할 수 있다.
-- 입력 매개변수 IN을 사용하면 프로시저에 값을 전달할 수 있다.
-- 출력 매개변수 OUT을 사용하면 프로시저가 처리한 결과를 돌려받을 수 있다.
-- 프로시저 안에서도 IF ~ ELSE, WHILE 같은 프로그래밍 문법을 사용할 수 있다.
+- 자주 사용하는 SQL 문을 반복해서 작성하지 않고, 프로시저로 만들어 `CALL`로 호출할 수 있다.
+- 기본 구조는 `CREATE PROCEDURE`, `BEGIN ~ END`, `CALL`로 이루어진다.
+- `BEGIN ~ END` 사이에는 여러 SQL 문을 작성할 수 있다.
+- 입력 매개변수 `IN`을 사용하면 프로시저에 값을 전달할 수 있다.
+- 출력 매개변수 `OUT`을 사용하면 프로시저가 처리한 결과를 돌려받을 수 있다.
+- 프로시저 안에서도 `IF ~ ELSE`, `WHILE` 같은 프로그래밍 문법을 사용할 수 있다.
 - 동적 SQL은 실행할 SQL 문을 문자열로 만든 뒤 실행하는 방식이다.
-- 동적 SQL에서는 PREPARE, EXECUTE, DEALLOCATE PREPARE를 사용한다.
+- 동적 SQL에서는 `PREPARE`, `EXECUTE`, `DEALLOCATE PREPARE`를 사용한다.
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="777" height="387" alt="image" src="https://github.com/user-attachments/assets/5a2e3968-c982-47bb-95ae-23012bb3ce52" />
+<img width="685" height="497" alt="image" src="https://github.com/user-attachments/assets/d0011de7-ff62-4077-ae85-399791ae86af" />
+<img width="632" height="198" alt="image" src="https://github.com/user-attachments/assets/5902eba7-4cb7-4e8c-a17e-eb66e1518375" />
 
 ## 2. 스토어드 함수와 커서 
 
 <!-- 스토어드 함수와 커서에 관해 배우게 된 점을 적어주세요. -->
-
+- 스토어드 함수는 사용자가 직접 만드는 MySQL 함수이다.
+- MySQL의 내장 함수로 해결하기 어려운 계산을 직접 함수로 만들어 사용할 수 있다.
+- 스토어드 함수는 `CREATE FUNCTION`으로 생성한다.
+- 반드시 `RETURNS`로 반환할 데이터 형식을 지정해야 한다.
+- 함수 내부에서는 `RETURN`을 사용해 하나의 값을 반환한다.
+- 스토어드 프로시저는 `CALL`로 실행하지만, 스토어드 함수는 `SELECT 함수명();` 형태로 호출한다.
+- 스토어드 함수의 매개변수는 모두 입력 매개변수이며, `IN`을 붙이지 않는다.
+- 커서는 테이블의 데이터를 한 행씩 처리할 때 사용하는 기능이다.
+- 커서는 보통 스토어드 프로시저 안에서 사용한다.
+- 커서의 기본 흐름은 다음과 같다.
+    - 커서 선언
+    - 반복 조건 선언
+    - 커서 열기
+    - 데이터 가져오기
+    - 데이터 처리하기
+    - 커서 닫기
+- 행의 끝을 판단하기 위해 `endOfRow` 같은 변수를 사용한다.
+  
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="718" height="467" alt="image" src="https://github.com/user-attachments/assets/75ae9a4c-d499-493f-8748-5374dbbf7091" />
+<img width="1078" height="387" alt="image" src="https://github.com/user-attachments/assets/88d784a5-3bf9-4279-b964-8c935e5a732d" />
+<img width="932" height="492" alt="image" src="https://github.com/user-attachments/assets/b29dd570-3425-4f49-b10c-fea40919fd2a" />
 
 ## 3. 자동 실행되는 트리거 
 
 <!-- 트리거에 관해 배우게 된 점을 적어주세요. -->
+- 트리거는 테이블에서 특정 이벤트가 발생하면 자동으로 실행되는 코드이다.
+- 주로 `INSERT`, `UPDATE`, `DELETE` 같은 DML 문이 실행될 때 작동한다.
+- 트리거는 사용자가 직접 `CALL`로 실행하는 것이 아니라, 테이블에 이벤트가 발생하면 자동으로 실행된다.
+- 트리거는 테이블에 부착해서 사용한다.
+- `AFTER DELETE`는 삭제가 일어난 후 트리거가 실행된다는 의미이다.
+- 트리거에는 스토어드 프로시저와 달리 `IN`, `OUT` 매개변수를 사용할 수 없다.
+- 트리거는 데이터 수정이나 삭제 전에 기존 데이터를 백업하는 용도로 많이 사용된다.
+- `OLD` 테이블은 수정 또는 삭제되기 전의 기존 데이터를 잠시 저장한다.
+- `NEW` 테이블은 입력 또는 수정 후의 새로운 데이터를 잠시 저장한다.
+- `DELETE` 트리거는 `DELETE` 문에서만 작동하며, `TRUNCATE` 문에서는 작동하지 않는다.
 
 <!-- 이번 챕터에서는 확인문제를 실습 인증으로 대체하여 진행합니다. 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="821" height="532" alt="image" src="https://github.com/user-attachments/assets/c298fe2d-9b2a-4deb-8060-3235e1666545" />
+<img width="1000" height="487" alt="image" src="https://github.com/user-attachments/assets/1877fbc1-f4f4-431a-802e-9bb4fc24fa61" />
 
 ---
 
@@ -169,7 +198,13 @@ INSERT INTO accounts VALUES
 - accounts 잔액이 자동으로 증가하는지 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+>1
+<img width="816" height="516" alt="image" src="https://github.com/user-attachments/assets/9c9cf548-8d5a-4299-82a4-0b4b6dad73c0" />
+
+>2
+
+>3
+>4
 
 
 ### 🎉 수고하셨습니다.
