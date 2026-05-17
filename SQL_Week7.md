@@ -47,21 +47,50 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+<img width="895" height="123" alt="image" src="https://github.com/user-attachments/assets/c28ad5c6-9d81-41f6-856f-e66ae5583ee5" />
+<img width="465" height="100" alt="image" src="https://github.com/user-attachments/assets/1119ef0d-40c9-4a2e-8328-ccdf0afd6efd" />
 
 ## 2. 파이썬과 MySQL의 연동
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="773" height="58" alt="image" src="https://github.com/user-attachments/assets/ae94416b-9c8d-4747-8292-4f6762e56ec1" />
+<img width="738" height="190" alt="image" src="https://github.com/user-attachments/assets/af241f0b-f80f-45bb-b297-63549d06b6ce" />
 
 
 ## 3. GUI 응용 프로그램 
 
 <!-- GUI 응용 프로그램에 관해 배우게 된 점을 적어주세요. -->
 
+- GUI: 윈도에 그래픽 환경으로 제공되는 화면
+- `tkinter`: 응용 프로그램과 비슷한 형태의 프로그램을 만들 수 있음
+  - 마우스만으로 데이터베이스에 쉽게 접근 가능
 
+- `Tk()`: 기본이 되는 윈도 반환
+  - 루트 윈도
+  - 윈도 출력
+- `root.mainloop()`: 윈도에 작업이 일어날 때 이벤트 처리
+
+- 라벨
+  - 문자를 표현할 수 있는 위젯
+  - label(부모윈도, 옵션..) 형식 사용
+  - 위젯 : 윈도에 나오는 버튼, 텍스트, 라디오 버튼, 이미지 등을 통합해서 지칭
+  - `pack()`: 화면에 위젯을 나타나게 함
+  - `Label()`: 라벨을 만듦
+    - text: 글자 내용
+    - font: 글꼴과 크기
+    - fg: foreground. 글자색
+    - bg: background. 배경색
+
+- 버튼
+  - 마우스로 클릭하면 지정한 작업이 실행되도록 사용되는 위젯
+  - buttion(부모윈도, 옵션..) 형식 사용
+  - `command` 옵션: 사용자가 버튼을 눌렀을 때 지정한 작업을 처리
+
+- 프레임, 엔트리, 리스트 박스
+    - 프레임: 화면을 여러 구역으로 나눌 때
+    - 엔트리: 입력 상자 표현
+    - 리스트 박스: 목록 표현
 ---
 
 이번 주는 마지막 주로 별도의 실습 과제는 진행하지 않습니다.
